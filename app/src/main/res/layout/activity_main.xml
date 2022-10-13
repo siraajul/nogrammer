@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What to Learn ?"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                android:src="@drawable/whattolearn"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today almost everything is being automated and programmed; right from banking applications to automatic attendance monitoring systems, everything is being governed by Computers. No wonder the number of software developers is expected to reach 28.7 million by 2024"
+                android:gravity="center"
+                android:textSize="20dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desktop Development?"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                >
+            </TextView>
+
+            <!--Desktop Development-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/cpp"
+                    >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/java"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/python"
+                    >
+                </ImageView>
+
+            </LinearLayout>
+
+            <!-- C++ Text-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                android:padding="@dimen/cardview_compat_inset_shadow"
+                android:textSize="18dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                android:textStyle="normal"
+                android:textSize="14dp"
+                >
+            </TextView>
+
+            <!-- Java Text-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAVA"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                android:padding="@dimen/cardview_compat_inset_shadow"
+                android:textSize="18dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                android:textStyle="normal"
+                android:textSize="14dp"
+                >
+            </TextView>
+
+            <!-- Python Text-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Python"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                android:padding="@dimen/cardview_compat_inset_shadow"
+                android:textSize="18dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                android:textStyle="normal"
+                android:textSize="14dp"
+                >
+            </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Currently Button Not Working !"
+                android:layout_marginTop="10dp"
+                >
+
+            </Button>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Development"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+
+                <!--Mobile Development-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/android"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/swift"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/flutter"
+                        android:layout_weight="1"
+                        >
+                    </ImageView>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unexpectedly !!! This Button Also Not Wokring ! "
+                    android:layout_marginTop="10dp"
+                    >
+
+                </Button>
+
+                <!-- Android Text-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Andoird"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textSize="18dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Features"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                    android:textStyle="normal"
+                    android:textSize="14dp"
+                    >
+                </TextView>
+
+                <!-- iOS Text-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="iOS"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textSize="18dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Features"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                    android:textStyle="normal"
+                    android:textSize="14dp"
+                    >
+                </TextView>
+
+                <!-- Flutter Text-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flutter"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ was developed by Bjarne Stroustrup along with Dennis Ritchie (creator of C) in Bell Laboratory during the 1970s C++ was created as an extension of C, adding object-oriented features.Popularity-wise, C++ is the second oldest programming language and ranked 4th in the TIOBE programming language ranking."
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textSize="18dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Features"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++ is a fast and compiled programming language. Because it’s a compiled programming language, C++ is Platform dependent.\n\n
+Using C++, the programmer can gain full control over the hardware as it has many libraries for directly handling the hardware-level tasks.\n\n
+C++ can quickly adapt to take advantage of Hardware changes, so its also gaining popularity along with the sudden rise of containerisation, GPUs, and Cloud computing.\n\n
+Because it is super-fast, C++ is heavily used in performance-critical and resource-constrained systems."
+                    android:textStyle="normal"
+                    android:textSize="14dp"
+                    >
+                </TextView>
+
+            </LinearLayout>
+            
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
